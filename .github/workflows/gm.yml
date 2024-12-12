@@ -1,11 +1,11 @@
 # This workflow will install Python dependencies, run a Python script
 # 
-name: Say gm at 8:00 everyday 
+name: Say gm at 9:00 everyday 
 
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  "0 8 * * *" # run task At 08:00 everyday
+    - cron:  "0 9 * * *" # run task At 09:00 everyday
 
 permissions:
   contents: read
